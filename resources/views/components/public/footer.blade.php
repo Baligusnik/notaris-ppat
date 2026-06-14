@@ -1,1 +1,7 @@
-<footer class="site-footer"><div><strong data-i18n="footer.copy">? 2026 Kantor Notaris/PPAT Ni Luh Putu Surya Mira Yanti, SH., M.Kn.</strong><p data-i18n="footer.rights">Seluruh hak cipta dilindungi.</p></div><nav><a href="#profil" data-i18n="nav.profile">Profil</a><a href="#tracking" data-i18n="nav.tracking">Tracking Berkas</a><a href="#pendaftaran" data-i18n="footer.registration">Pendaftaran Berkas</a><a href="#kontak" data-i18n="nav.contact">Kontak</a><a href="#alamat" data-i18n="nav.address">Alamat</a><a href="#" data-i18n="footer.privacy">Kebijakan Privasi</a></nav></footer>
+<footer class="site-footer app-version-footer">
+    <div class="footer-version-card">
+        <span class="footer-kicker" data-i18n="footer.kicker">Sistem Digital Layanan Kantor</span>
+        <strong data-i18n="footer.system">Sistem Notaris dan PPAT</strong>
+        <p><span data-i18n="footer.version">Versi 1.1</span> <span>/</span> <span data-i18n="footer.year">2026</span></p>
+    </div>
+</footer>

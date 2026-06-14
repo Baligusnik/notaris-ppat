@@ -37,3 +37,15 @@ Route::post('/contact-email', function (Request $request) {
         'message' => 'Pesan berhasil dikirim. Kami akan menghubungi Anda kembali.',
     ]);
 })->name('contact.email');
+
+Route::get('/auth/{provider}/redirect', function (string $provider) {
+    abort_unless(in_array($provider, ['google', 'apple', 'microsoft'], true), 404);
+
+    return back()->with('auth_provider_notice', "Login {$provider} siap disambungkan dengan OAuth credential.");
+})->name('auth.social.redirect');
+Route::post('/register/check-notary', function () {
+    return response()->json([
+        'registered' => false,
+        'message' => 'Akun notaris belum terdaftar. Registrasi dapat dilanjutkan.',
+    ]);
+})->name('register.check-notary');

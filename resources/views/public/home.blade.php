@@ -13,6 +13,8 @@
 <body>
     <x-public.header />
     <x-public.settings-menu />
+    <x-public.login-modal />
+    <x-public.register-modal />
     <main>
         <x-public.profile-section />
         <x-public.handled-documents-section />
