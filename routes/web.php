@@ -8,6 +8,10 @@ Route::get('/', function () {
     return view('public.home');
 })->name('public.home');
 
+Route::get('/dashboard/user', function () {
+    return view('user.dashboard');
+})->name('user.dashboard');
+
 
 Route::post('/contact-email', function (Request $request) {
     $validated = $request->validate([

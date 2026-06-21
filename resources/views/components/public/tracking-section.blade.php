@@ -1,7 +1,7 @@
 <div id="tracking" class="tracking-anchor" aria-hidden="true"></div>
 <div class="tracking-modal" id="trackingModal" aria-hidden="true">
     <div class="tracking-dialog" role="dialog" aria-modal="true" aria-labelledby="trackingModalTitle">
-        <button type="button" class="tracking-close" data-close-tracking>?</button>
+        <button type="button" class="tracking-close" data-close-tracking aria-label="Tutup tracking"><span></span></button>
         <section class="tracking-section">
             <div class="section-heading compact-heading">
                 <p data-i18n="tracking.eyebrow">Pantau Progres</p>
